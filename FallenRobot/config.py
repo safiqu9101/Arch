@@ -5,7 +5,7 @@ class Config(object):
     API_ID = "26792767"
     API_HASH = "d5892fe7d458bff884fde1f1efbaadf3"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "HXV2U7BXH8LB04NV"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
     DATABASE_URL = ""  # A sql database url from elephantsql.com
 
