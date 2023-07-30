@@ -71,21 +71,14 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-🌸 ʜᴇʏ {}, 
-
-* ᴛʜɪs ɪs* 💫 {} !
-
-🌍ᴅɪsᴄᴏᴠᴇʀ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴀᴛ ʏᴏᴜʀ sᴇʀᴠɪᴄᴇ! 🥀
-
-🍂 ᴇʟᴇᴠᴀᴛᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴡɪᴛʜ ᴇᴀsᴇ.
-
-🌸 ᴇxᴘᴇʀɪᴇɴᴄᴇ sᴇᴀᴍʟᴇss ᴍᴜsɪᴄ ᴘʟᴀʏʙᴀᴄᴋ ʟɪᴋᴇ ɴᴇᴠᴇʀ ʙᴇғᴏʀᴇ.
-
-💫 ᴜɴʟᴇᴀsʜ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏғ sᴘᴇᴄɪᴀʟ ᴜsᴇʀ ᴛᴀɢɢɪɴɢ.
-
-*👉 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ & ᴀʙᴏᴜᴛ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴜɴᴄᴏᴠᴇʀ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇs ᴀɴᴅ ʜᴏᴡ ɪ ᴄᴀɴ ᴀssɪsᴛ ʏᴏᴜ ʙᴇᴛᴛᴇʀ. ʟᴇᴛ's ᴍᴀᴋᴇ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴇxᴛʀᴀᴏʀᴅɪɴᴀʀʏ! 👈.*
-"""
+PM_START_TEXT = """ 
+*Hᴇʟʟᴏ {} * [!](https://te.legra.ph/file/725b20e82c195163a6fc0.jpg)
+───────────────────────
+× *I'ᴍ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
+× *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
+───────────────────────
+× *Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ
+× *Pʟᴀʏ Mᴜsɪᴄ
 
 buttons = [
     [
@@ -430,7 +423,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ᴛᴇʟᴇɢʀᴀᴍ",
-                            url="https://t.me/itszoney",
+                            url="https://t.me/taitangamer",
                         ),
                     ],
                     [
@@ -455,13 +448,13 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=f"""
-*ᴛʜᴇsᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴀʟʀᴇᴀᴅʏ ᴀʀᴇ ᴘᴜʙʟɪsʜᴇᴅ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ᴏɴ ɢɪᴛʜᴜʙ ғᴀʟʟᴇɴ ʀᴏʙᴏᴛ*
+*ᴛʜᴇsᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴀʟʀᴇᴀᴅʏ ᴀʀᴇ ᴘᴜʙʟɪsʜᴇᴅ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ᴏɴ ɢɪᴛʜᴜʙ ʀᴏʙᴏᴛ*
 
 ᴡᴇ ᴅᴏ sɪᴍᴘʟᴇ ᴍᴏᴅɪғɪᴄᴀᴛɪᴏɴ ᴀɴᴅ ᴀᴅᴅᴇᴅ sᴏᴍᴇᴛʜɪɴɢ ᴜɴɪǫᴜᴇ ғᴇᴀᴛᴜʀᴇs
 
 ʟɪᴋᴇ : ᴠᴏɪᴄᴇ ᴛᴀɢ, ғᴀɴᴅᴏᴍ ᴛᴇxᴛ ᴛᴀɢ, ᴅɪғғᴇʀᴇɴᴛ ʟᴀɴɢᴜᴀɢᴇ ᴛᴀɢ
  
-ᴄᴏᴅᴇ ʙʏ  [ᴢᴏɴᴇʏ](https://t.me/itszoney), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+ᴄᴏᴅᴇ ʙʏ  [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/Taitangamer), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
