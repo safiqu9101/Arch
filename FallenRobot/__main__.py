@@ -102,7 +102,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*🍂 {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
+🍂 {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs.
 ✨ /start :sᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ (ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ).
 🌸 /help : sʜᴏᴡs ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 
